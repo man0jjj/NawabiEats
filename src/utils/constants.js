@@ -4,4 +4,4 @@ export const LOGO_URL = "https://i.postimg.cc/y8F9K7f1/DALL-E-2025-03-12-21-24-0
 
 // to send multiple things from a same file use named export
 
-export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.4845893&lng=78.42047889999999&restaurantId=";
+export const MENU_API = "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.4845893&lng=78.42047889999999&restaurantId=";
