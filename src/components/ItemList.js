@@ -17,7 +17,7 @@ const ItemList = ({ items }) => {
           key={item.card.info.id}
           className="flex flex-col md:flex-row justify-between items-start md:items-center border-b pb-6 text-left"
         >
-          {/* ✅ Content Section */}
+        
           <div className="flex-1 text-left">
             <h3 className="font-semibold text-lg text-gray-800">
               {item.card.info.name}
@@ -32,7 +32,7 @@ const ItemList = ({ items }) => {
             </p>
           </div>
 
-          {/* ✅ Image & Button Section */}
+        
           <div className="relative w-28 h-24 flex-shrink-0 mt-4 md:mt-0">
             <img
               src={CDN_URL + item.card.info.imageId}
